@@ -52,6 +52,8 @@ GEM
     erubis (2.7.0)
     execjs (1.4.0)
       multi_json (~> 1.0)
+    factory_girl (2.6.4)
+      activesupport (>= 2.3.9)
     ffi (1.1.5)
     haml (3.2.0.beta.3)
       tilt
@@ -145,6 +147,7 @@ DEPENDENCIES
   capybara (= 1.1.2)
   coffee-rails (~> 3.2.1)
   dynamic_form (= 1.1.4)
+  factory_girl (= 2.6.4)
   haml (= 3.2.0.beta.3)
   jquery-rails
   rails (= 3.2.8)
