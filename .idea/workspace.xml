@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c55c1963-3df9-4a24-b2e0-bdefd1bfe790" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/tickets/edit.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/integration/editing_tickets_spec.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/integration/deleting_tickets_spec.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/tickets_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/tickets_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/tickets/show.html.haml" afterPath="$PROJECT_DIR$/app/views/tickets/show.html.haml" />
@@ -85,7 +84,7 @@
       <file leaf-file-name="tickets_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/tickets_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="5" selection-start="1016" selection-end="1016" vertical-scroll-proportion="0.0">
+            <state line="41" column="24" selection-start="1124" selection-end="1124" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -103,7 +102,7 @@
       <file leaf-file-name="show.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/tickets/show.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="53" selection-start="82" selection-end="82" vertical-scroll-proportion="-1.25">
+            <state line="3" column="127" selection-start="210" selection-end="210" vertical-scroll-proportion="-1.875">
               <folding />
             </state>
           </provider>
@@ -136,10 +135,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="editing_tickets_spec.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="editing_tickets_spec.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/integration/editing_tickets_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="43" selection-start="432" selection-end="432" vertical-scroll-proportion="0.20050125">
+            <state line="16" column="43" selection-start="432" selection-end="432" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="deleting_tickets_spec.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spec/integration/deleting_tickets_spec.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="27" selection-start="389" selection-end="389" vertical-scroll-proportion="0.18796992">
               <folding />
             </state>
           </provider>
@@ -190,15 +198,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_form.html.haml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/tickets/_form.html.haml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="12" selection-start="202" selection-end="202" vertical-scroll-proportion="-6.25">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindManager">
@@ -212,7 +211,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/spec/controllers/projects_controller_spec.rb" />
         <option value="$PROJECT_DIR$/app/controllers/projects_controller.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/views/tickets/new.html.haml" />
@@ -224,10 +222,11 @@
         <option value="$PROJECT_DIR$/spec/integration/viewing_tickets_spec.rb" />
         <option value="$PROJECT_DIR$/app/models/project.rb" />
         <option value="$PROJECT_DIR$/spec/integration/deleting_projects_spec.rb" />
-        <option value="$PROJECT_DIR$/app/views/tickets/show.html.haml" />
         <option value="$PROJECT_DIR$/app/views/tickets/edt.html.haml" />
-        <option value="$PROJECT_DIR$/app/controllers/tickets_controller.rb" />
         <option value="$PROJECT_DIR$/spec/integration/editing_tickets_spec.rb" />
+        <option value="$PROJECT_DIR$/app/views/tickets/show.html.haml" />
+        <option value="$PROJECT_DIR$/app/controllers/tickets_controller.rb" />
+        <option value="$PROJECT_DIR$/spec/integration/deleting_tickets_spec.rb" />
       </list>
     </option>
   </component>
@@ -1089,13 +1088,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/tickets/new.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="15" selection-start="30" selection-end="30" vertical-scroll-proportion="-0.625">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/tickets/_form.html.haml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="12" selection-start="202" selection-end="202" vertical-scroll-proportion="-6.25">
@@ -1166,13 +1158,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/tickets/show.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="53" selection-start="82" selection-end="82" vertical-scroll-proportion="-1.25">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/projects_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="53" column="24" selection-start="1237" selection-end="1237" vertical-scroll-proportion="0.0">
@@ -1187,16 +1172,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/tickets_controller.rb">
+    <entry file="file://$PROJECT_DIR$/spec/integration/editing_tickets_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="5" selection-start="1016" selection-end="1016" vertical-scroll-proportion="0.0">
+        <state line="16" column="43" selection-start="432" selection-end="432" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/integration/editing_tickets_spec.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/tickets/show.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="43" selection-start="432" selection-end="432" vertical-scroll-proportion="0.20050125">
+        <state line="3" column="127" selection-start="210" selection-end="210" vertical-scroll-proportion="-1.875">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/tickets_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="24" selection-start="1124" selection-end="1124" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/integration/deleting_tickets_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="27" selection-start="389" selection-end="389" vertical-scroll-proportion="0.18796992">
           <folding />
         </state>
       </provider>
